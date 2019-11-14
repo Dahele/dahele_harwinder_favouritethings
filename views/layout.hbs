@@ -5,47 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- css stuff -->
-    <!-- link to reset -->
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>Three favourite things</title>
 </head>
-
-<body>
-    <h1>Fun with Modules!</h1>
-    <nav data-module="nav">
-        <!-- nav elements must have nav-item -->
-        <ul>
-            <li><a href="#" class="nav-item">1</a></li>
-            <li><a href="/2" class="nav-item">2</a></li>
-            <li><a href="#section3" class="nav-item">3</a></li>
-            <li><a href="#section4" class="nav-item">4</a></li>
-            <li><a href="#section5" class="nav-item">5</a></li>
-        </ul>
-    </nav>
-
+<main class="container">
+<body>   
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <img src="images/background.jpg" alt="Background" class="background">
     <main>
         {{{ body }}}
     </main>
 
-    <footer>
-        <p>here's some footer text</p>
-
-        <ul>
-            <li><a href="#" class="nav-item">1</a></li>
-            <li><a href="/2" class="nav-item">2</a></li>
-            <li><a href="#section3" class="nav-item">3</a></li>
-            <li><a href="#section4" class="nav-item">4</a></li>
-            <li><a href="#section5" class="nav-item">5</a></li>
-        </ul>
-    </footer>
-
-    <a id="to-top" href="#" class="nav-item">back to top</a>
-
     <script type="module" src="js/main.js"></script>
     <script>
-        var name = "Justin";
+        var name = "iphone";
 
         console.log('name in main file: ' + name);
     </script>
@@ -58,10 +31,10 @@
                 <img class="u-avatar"></img>
                 <h1 class="u-name"></h1>
             </div>
-
-            <button class="user-button">More Details</button>
+            <button class="user-button">More Details!</button>
         </div>
     </template>
+    </main>
     <!-- end templates-->
 </body>
 
